@@ -20,7 +20,9 @@ jobs:
           python-version-file: "builder/pyproject.toml"
 
       - name: Install the project
-        run: uv sync --all-extras --dev
+        run: |
+          cd builder
+          uv sync --all-extras --dev
 
       - name: Run minify
         run: uv run builder/converter.py contents/assets assets
