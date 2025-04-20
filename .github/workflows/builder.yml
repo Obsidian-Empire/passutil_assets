@@ -1,0 +1,36 @@
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+name: Minify and Release assets
+
+jobs:
+  minify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: "Set up Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "builder/pyproject.toml"
+
+      - name: Install the project
+        run: uv sync --all-extras --dev
+
+      - name: Run minify
+        run: uv run builder/converter.py contents/assets assets
+
+      - name: Archive assets
+        run: tar -czf assets.tar.gz assets/
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: assets.tar.gz
+          name: assets minified release
