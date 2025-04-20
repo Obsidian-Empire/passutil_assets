@@ -25,7 +25,9 @@ jobs:
           uv sync --all-extras --dev
 
       - name: Run minify
-        run: uv run builder/converter.py contents/assets assets
+        run: |
+          cd builder
+          uv run converter.py ../contents/assets ../assets
 
       - name: Archive assets
         run: tar -czf assets.tar.gz assets/
