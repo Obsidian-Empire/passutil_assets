@@ -11,9 +11,11 @@
 - нужно установить [**uv**](https://docs.astral.sh/uv/getting-started/installation/)
 - синхронизировать
 ```sh
-uv sync
+cd builder
+uv sync --all-extras --dev
 ```
 - запустить
 ```sh
+cd builder
 uv run converter.py dir_from dir_to
 ```
