@@ -1,0 +1,57 @@
+on:
+  push:
+    branches:
+      - main
+
+name: Minify and Push to Compressed Branch
+
+jobs:
+  minify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore previous build
+        uses: actions/cache@v3
+        with:
+          path: |
+            assets
+          key: ${{ runner.os }}-assets-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-assets-
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: "Set up Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "builder/pyproject.toml"
+
+      - name: Install the project
+        run: |
+          cd builder
+          uv sync --all-extras --dev
+
+      - name: Run minify
+        run: |
+          cd builder
+          uv run converter.py ../contents/assets ../assets
+
+      - name: Save build cache
+        uses: actions/cache/save@v3
+        with:
+          path: |
+            assets
+          key: ${{ runner.os }}-assets-${{ github.sha }}
+
+      - name: Push to compressed branch
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git fetch origin
+          git checkout -b compressed origin/compressed || git checkout compressed
+          cp -R assets/* .
+          git add .
+          git commit -m "Update compressed assets from ${{ github.sha }}"
+          git push origin compressed
