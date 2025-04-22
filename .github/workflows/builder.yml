@@ -6,17 +6,28 @@ on:
 name: Minify and Release assets
 
 jobs:
-  minify:
+  minify_assets:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Restore previous build
+      # Восстанавливаем кэш Python-зависимостей
+      - name: Cache Python dependencies
         uses: actions/cache@v3
         with:
           path: |
-            assets
-          key: ${{ runner.os }}-assets-${{ github.sha }}
+            ~/.cache/pip
+            ~/.cache/uv
+          key: ${{ runner.os }}-python-deps-${{ hashFiles('builder/pyproject.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-python-deps-
+
+      # Восстанавливаем кэш предыдущей минификации
+      - name: Restore previous build
+        uses: actions/cache@v3
+        with:
+          path: assets
+          key: ${{ runner.os }}-assets-${{ hashFiles('contents/assets/**') }}
           restore-keys: |
             ${{ runner.os }}-assets-
 
@@ -38,13 +49,30 @@ jobs:
           cd builder
           uv run converter.py ../contents/assets ../assets
 
-      # Сохраняем результаты для следующего запуска
+      # Сохраняем обновленный кэш
       - name: Save build cache
         uses: actions/cache/save@v3
         with:
-          path: |
-            assets
-          key: ${{ runner.os }}-assets-${{ github.sha }}
+          path: assets
+          key: ${{ runner.os }}-assets-${{ hashFiles('contents/assets/**') }}
+
+      # Сохраняем результаты для использования в следующих задачах
+      - name: Upload minified assets
+        uses: actions/upload-artifact@v3
+        with:
+          name: minified-assets
+          path: assets/
+          retention-days: 1
+
+  create_release:
+    needs: minify_assets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download minified assets
+        uses: actions/download-artifact@v3
+        with:
+          name: minified-assets
+          path: assets
 
       - name: Archive assets
         run: tar -czf assets.tar.gz assets/
@@ -56,3 +84,31 @@ jobs:
           files: assets.tar.gz
           name: minified assets
           tag_name: release-${{ github.run_number }}
+
+  update_compressed_branch:
+    needs: minify_assets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download minified assets
+        uses: actions/download-artifact@v3
+        with:
+          name: minified-assets
+          path: assets
+
+      - name: Push to compressed branch
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git fetch origin
+          if git show-ref --quiet refs/heads/compressed; then
+            git checkout compressed
+          else
+            git checkout --orphan compressed
+          fi
+          rm -rf *
+          cp -R assets/* .
+          git add .
+          git commit -m "Update compressed assets from ${{ github.sha }}" || echo "No changes to commit"
+          git push origin compressed
