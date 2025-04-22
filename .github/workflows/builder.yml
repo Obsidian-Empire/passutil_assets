@@ -129,7 +129,7 @@ jobs:
           rm -rf assets
           rm -f .gitignore
           rm -f .gitkeep
-          rm -f .github/workflows
+          rm -rf .github/workflows
 
       - name: Add and commit changes
         run: |
