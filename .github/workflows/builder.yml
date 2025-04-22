@@ -123,6 +123,14 @@ jobs:
             touch .gitkeep
           fi
 
+      - name: Remove assets
+        run: |
+          # Удаляем папку assets
+          rm -rf assets
+          rm -f .gitignore
+          rm -f .gitkeep
+          rm -f .github/workflows
+
       - name: Add and commit changes
         run: |
           # Добавляем и коммитим изменения
