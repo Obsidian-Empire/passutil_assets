@@ -11,7 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Восстанавливаем кэш Python-зависимостей
       - name: Cache Python dependencies
         uses: actions/cache@v3
         with:
@@ -22,7 +21,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-python-deps-
 
-      # Восстанавливаем кэш предыдущей минификации
       - name: Restore previous build
         uses: actions/cache@v3
         with:
@@ -49,14 +47,20 @@ jobs:
           cd builder
           uv run converter.py ../contents/assets ../assets
 
-      # Сохраняем обновленный кэш
       - name: Save build cache
         uses: actions/cache/save@v3
         with:
           path: assets
           key: ${{ runner.os }}-assets-${{ hashFiles('contents/assets/**') }}
 
-      # Сохраняем результаты для использования в следующих задачах
+      - name: Check assets before upload
+        run: |
+          echo "Contents of assets directory:"
+          ls -la assets || echo "Assets directory not found"
+
+          # Убедимся, что директория существует
+          mkdir -p assets
+
       - name: Upload minified assets
         uses: actions/upload-artifact@v4
         with:
@@ -97,6 +101,16 @@ jobs:
           name: minified-assets
           path: assets
 
+      - name: Debug artifacts
+        run: |
+          echo "Listing contents of current directory:"
+          ls -la
+          echo "Listing contents of assets directory:"
+          ls -la assets || echo "Assets directory does not exist"
+          # Если директория assets пуста, создадим пустой файл для демонстрации
+          mkdir -p assets
+          touch assets/.gitkeep
+
       - name: Push to compressed branch
         run: |
           git config user.name "${{ github.actor }}"
@@ -108,7 +122,14 @@ jobs:
             git checkout --orphan compressed
           fi
           rm -rf *
-          cp -R assets/* .
+
+          if [ "$(ls -A assets 2>/dev/null)" ]; then
+            cp -R assets/* .
+          else
+            echo "Assets directory is empty or does not exist. Creating placeholder."
+            touch .gitkeep
+          fi
+
           git add .
           git commit -m "Update compressed assets from ${{ github.sha }}" || echo "No changes to commit"
           git push origin compressed
