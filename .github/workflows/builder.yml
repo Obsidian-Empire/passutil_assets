@@ -94,6 +94,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: compressed
+        continue-on-error: true
 
       - name: Download minified assets
         uses: actions/download-artifact@v4
@@ -101,28 +104,15 @@ jobs:
           name: minified-assets
           path: assets
 
-      - name: Debug artifacts
-        run: |
-          echo "Listing contents of current directory:"
-          ls -la
-          echo "Listing contents of assets directory:"
-          ls -la assets || echo "Assets directory does not exist"
-          # Если директория assets пуста, создадим пустой файл для демонстрации
-          mkdir -p assets
-          touch assets/.gitkeep
-
       - name: Push to compressed branch
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git fetch origin
-          if git show-ref --quiet refs/heads/compressed; then
-            git checkout compressed
-          else
-            git checkout --orphan compressed
-          fi
+
+          # Убираем все существующие файлы, кроме .git
           rm -rf *
 
+          # Копируем новые файлы из assets если они есть
           if [ "$(ls -A assets 2>/dev/null)" ]; then
             cp -R assets/* .
           else
@@ -130,6 +120,9 @@ jobs:
             touch .gitkeep
           fi
 
-          git add .
+          # Добавляем и коммитим изменения
+          git add -A
           git commit -m "Update compressed assets from ${{ github.sha }}" || echo "No changes to commit"
-          git push origin compressed
+
+          # Принудительно отправляем изменения
+          git push -f origin HEAD:compressed
