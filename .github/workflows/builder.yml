@@ -98,20 +98,23 @@ jobs:
           ref: compressed
         continue-on-error: true
 
+      - name: Set credentials
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: flush_repo
+        run: |
+          rm -rf *
+
       - name: Download minified assets
         uses: actions/download-artifact@v4
         with:
           name: minified-assets
           path: assets
 
-      - name: Push to compressed branch
+      - name: Copy assets
         run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-
-          # Убираем все существующие файлы, кроме .git
-          rm -rf *
-
           # Копируем новые файлы из assets если они есть
           if [ "$(ls -A assets 2>/dev/null)" ]; then
             cp -R assets/* .
@@ -120,9 +123,13 @@ jobs:
             touch .gitkeep
           fi
 
+      - name: Add and commit changes
+        run: |
           # Добавляем и коммитим изменения
           git add -A
           git commit -m "Update compressed assets from ${{ github.sha }}" || echo "No changes to commit"
 
+      - name: Push to branch
+        run: |
           # Принудительно отправляем изменения
           git push -f origin HEAD:compressed
