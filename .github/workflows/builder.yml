@@ -65,7 +65,7 @@ jobs:
       - name: Run minify
         run: |
           cd builder
-          uv run converter.py ../contents/assets ../assets --base-url "$BLOB_BASE_URL"
+          uv run main.py ../contents/assets ../assets --base-url "$BLOB_BASE_URL"
 
       - name: Save build cache
         uses: actions/cache/save@v3
