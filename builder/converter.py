@@ -5,7 +5,7 @@ import json
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 from PIL import Image
 
@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Оптимальные настройки для конвертации
+# Оптимальные настройки для конвертацjии
 WEBP_SETTINGS = {
     "quality": 85,
     "method": 6,
@@ -26,7 +26,9 @@ WEBP_SETTINGS = {
 }
 
 # Семафор для ограничения количества одновременных операций
-MAX_CONCURRENT_OPERATIONS = 5
+MAX_CONCURRENT_OPERATIONS = 4
+
+ASSET_SECTIONS = ["backgrounds", "badges", "banners", "frames"]
 
 
 async def calculate_file_hash(file_path: Path) -> str:
@@ -81,6 +83,53 @@ async def save_lock_file(
     async with asyncio.Lock():
         with open(lock_file, "w") as f:
             json.dump(organized_hashes, f, indent=4)
+
+
+def _normalize_base_url(base_url: str) -> str:
+    return base_url.rstrip("/")
+
+
+def _build_blob_part(
+    base_url: str, section: str, part_dir: Path
+) -> List[Dict[str, str]]:
+    part_items: List[Dict[str, str]] = []
+    for webp_file in sorted(part_dir.glob("*.webp"), key=lambda p: p.name):
+        part_items.append(
+            {
+                "name": webp_file.stem,
+                "url": f"{base_url}/{section}/{part_dir.name}/{webp_file.name}",
+            }
+        )
+    return part_items
+
+
+def build_blob_lock(output_path: Path, base_url: str) -> Dict[str, Dict[str, Any]]:
+    normalized_base_url = _normalize_base_url(base_url)
+    blob_lock: Dict[str, Dict[str, Any]] = {}
+
+    for section in sorted(ASSET_SECTIONS):
+        section_dir = output_path / section
+        items: List[Dict[str, Any]] = []
+
+        if section_dir.exists() and section_dir.is_dir():
+            for part_dir in sorted(
+                [d for d in section_dir.iterdir() if d.is_dir()],
+                key=lambda p: p.name,
+            ):
+                part_items = _build_blob_part(
+                    normalized_base_url, section, part_dir
+                )
+                items.append({"type": part_dir.name, "part": part_items})
+
+        blob_lock[section] = {"items": items}
+
+    return blob_lock
+
+
+async def save_blob_lock(lock_file: Path, data: Dict[str, Any]) -> None:
+    async with asyncio.Lock():
+        with open(lock_file, "w") as f:
+            json.dump(data, f, indent=4)
 
 
 async def convert_image(
@@ -204,11 +253,12 @@ async def process_directory(
     return new_hashes
 
 
-async def async_main(input_dir: str, output_dir: str) -> None:
+async def async_main(input_dir: str, output_dir: str, base_url: str) -> None:
     """Асинхронная основная функция."""
     input_path = Path(input_dir)
     output_path = Path(output_dir)
     lock_file = output_path / "conversion.lock"
+    blob_lock_file = output_path / "blob.json"
 
     output_path.mkdir(parents=True, exist_ok=True)
     conversion_hashes = await load_lock_file(lock_file)
@@ -216,12 +266,14 @@ async def async_main(input_dir: str, output_dir: str) -> None:
         input_path, output_path, conversion_hashes
     )
     await save_lock_file(lock_file, new_hashes)
+    blob_lock = build_blob_lock(output_path, base_url)
+    await save_blob_lock(blob_lock_file, blob_lock)
     logger.info("Conversion process completed!")
 
 
-def main(input_dir: str, output_dir: str) -> None:
+def main(input_dir: str, output_dir: str, base_url: str) -> None:
     """Точка входа для синхронного запуска."""
-    asyncio.run(async_main(input_dir, output_dir))
+    asyncio.run(async_main(input_dir, output_dir, base_url))
 
 
 if __name__ == "__main__":
@@ -229,9 +281,18 @@ if __name__ == "__main__":
         description="Convert PNG images to WebP format"
     )
     parser.add_argument(
-        "input_dir", help="Input directory containing PNG files"
+        "input_dir",
+        help="Input directory containing PNG files"
     )
-    parser.add_argument("output_dir", help="Output directory for WebP files")
+    parser.add_argument(
+        "output_dir",
+        help="Output directory for WebP files")
+
+    parser.add_argument(
+        "--base-url",
+        required=True,
+        help="Base raw URL for blob.json entries (no trailing slash)",
+    )
 
     args = parser.parse_args()
-    main(args.input_dir, args.output_dir)
+    main(args.input_dir, args.output_dir, args.base_url)

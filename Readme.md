@@ -17,5 +17,7 @@ uv sync --all-extras --dev
 - запустить
 ```sh
 cd builder
-uv run converter.py dir_from dir_to
+uv run converter.py dir_from dir_to --base-url "https://raw.githubusercontent.com/<owner>/<repo>/compressed"
 ```
+
+- `--base-url` обязателен и должен указывать на raw-ссылку GitHub, чтобы клиенты могли напрямую загружать оптимизированные WebP из ветки `compressed`.

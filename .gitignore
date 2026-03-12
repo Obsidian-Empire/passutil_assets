@@ -8,3 +8,4 @@ builder/*.egg-info
 
 # Virtual environments
 builder/.venv
+assets/*
