@@ -1,0 +1,1564 @@
+{
+    "backgrounds": {
+        "items": [
+            {
+                "type": "all",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/all/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/all/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/all/3.webp"
+                    }
+                ]
+            },
+            {
+                "type": "creators",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/12.webp"
+                    },
+                    {
+                        "name": "13",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/13.webp"
+                    },
+                    {
+                        "name": "14",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/14.webp"
+                    },
+                    {
+                        "name": "15",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/15.webp"
+                    },
+                    {
+                        "name": "16",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/16.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/creators/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "events",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/events/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/events/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/events/3.webp"
+                    }
+                ]
+            },
+            {
+                "type": "holidays",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/12.webp"
+                    },
+                    {
+                        "name": "13",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/13.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/holidays/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "oldpoints",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldpoints/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldpoints/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldpoints/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldpoints/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldpoints/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldpoints/6.webp"
+                    }
+                ]
+            },
+            {
+                "type": "oldseasons",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldseasons/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldseasons/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldseasons/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldseasons/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldseasons/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/oldseasons/6.webp"
+                    }
+                ]
+            },
+            {
+                "type": "shop",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/shop/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/shop/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/shop/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/shop/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/shop/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/shop/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/shop/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/shop/8.webp"
+                    }
+                ]
+            },
+            {
+                "type": "support",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/support/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/support/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/backgrounds/support/3.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "badges": {
+        "items": [
+            {
+                "type": "achievements",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/achievements/1.webp"
+                    }
+                ]
+            },
+            {
+                "type": "all",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/12.webp"
+                    },
+                    {
+                        "name": "13",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/13.webp"
+                    },
+                    {
+                        "name": "14",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/14.webp"
+                    },
+                    {
+                        "name": "15",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/15.webp"
+                    },
+                    {
+                        "name": "16",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/16.webp"
+                    },
+                    {
+                        "name": "17",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/17.webp"
+                    },
+                    {
+                        "name": "18",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/18.webp"
+                    },
+                    {
+                        "name": "19",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/19.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/2.webp"
+                    },
+                    {
+                        "name": "20",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/20.webp"
+                    },
+                    {
+                        "name": "21",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/21.webp"
+                    },
+                    {
+                        "name": "22",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/22.webp"
+                    },
+                    {
+                        "name": "23",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/23.webp"
+                    },
+                    {
+                        "name": "24",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/24.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/all/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "anime",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/anime/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/anime/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/anime/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/anime/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/anime/5.webp"
+                    }
+                ]
+            },
+            {
+                "type": "coders",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coders/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coders/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coders/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coders/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coders/5.webp"
+                    }
+                ]
+            },
+            {
+                "type": "codes",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/codes/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/codes/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/codes/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/codes/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/codes/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/codes/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/codes/7.webp"
+                    }
+                ]
+            },
+            {
+                "type": "coop",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/12.webp"
+                    },
+                    {
+                        "name": "13",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/13.webp"
+                    },
+                    {
+                        "name": "14",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/14.webp"
+                    },
+                    {
+                        "name": "15",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/15.webp"
+                    },
+                    {
+                        "name": "16",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/16.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/coop/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "creators",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/creators/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/creators/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/creators/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/creators/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/creators/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/creators/6.webp"
+                    }
+                ]
+            },
+            {
+                "type": "events",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/11.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/events/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "halloween",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/12.webp"
+                    },
+                    {
+                        "name": "13",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/13.webp"
+                    },
+                    {
+                        "name": "14",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/14.webp"
+                    },
+                    {
+                        "name": "15",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/15.webp"
+                    },
+                    {
+                        "name": "16",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/16.webp"
+                    },
+                    {
+                        "name": "17",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/17.webp"
+                    },
+                    {
+                        "name": "18",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/18.webp"
+                    },
+                    {
+                        "name": "19",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/19.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/2.webp"
+                    },
+                    {
+                        "name": "20",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/20.webp"
+                    },
+                    {
+                        "name": "21",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/21.webp"
+                    },
+                    {
+                        "name": "22",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/22.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/halloween/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "holidays",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/12.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/holidays/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "iwas",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/iwas/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/iwas/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/iwas/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/iwas/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/iwas/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/iwas/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/iwas/7.webp"
+                    }
+                ]
+            },
+            {
+                "type": "limited",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/limited/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "messages",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/messages/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/messages/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/messages/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/messages/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/messages/5.webp"
+                    }
+                ]
+            },
+            {
+                "type": "music",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/music/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "newyear",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/12.webp"
+                    },
+                    {
+                        "name": "13",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/13.webp"
+                    },
+                    {
+                        "name": "14",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/14.webp"
+                    },
+                    {
+                        "name": "15",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/15.webp"
+                    },
+                    {
+                        "name": "16",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/16.webp"
+                    },
+                    {
+                        "name": "17",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/17.webp"
+                    },
+                    {
+                        "name": "18",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/18.webp"
+                    },
+                    {
+                        "name": "19",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/19.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/2.webp"
+                    },
+                    {
+                        "name": "20",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/20.webp"
+                    },
+                    {
+                        "name": "21",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/21.webp"
+                    },
+                    {
+                        "name": "22",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/22.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/newyear/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "oldpoints",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldpoints/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldpoints/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldpoints/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldpoints/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldpoints/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldpoints/6.webp"
+                    }
+                ]
+            },
+            {
+                "type": "oldseasons",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldseasons/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldseasons/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldseasons/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldseasons/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldseasons/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldseasons/6.webp"
+                    }
+                ]
+            },
+            {
+                "type": "oldsides",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldsides/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldsides/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/oldsides/3.webp"
+                    }
+                ]
+            },
+            {
+                "type": "paws",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/paws/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/paws/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/paws/3.webp"
+                    }
+                ]
+            },
+            {
+                "type": "rp",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/rp/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/rp/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/rp/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/rp/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/rp/5.webp"
+                    }
+                ]
+            },
+            {
+                "type": "shop",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/shop/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "support",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/support/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/support/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/support/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/support/4.webp"
+                    }
+                ]
+            },
+            {
+                "type": "tournaments",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/tournaments/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/tournaments/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/tournaments/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/tournaments/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/tournaments/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/tournaments/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/badges/tournaments/7.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "banners": {
+        "items": [
+            {
+                "type": "all",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/all/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/all/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/all/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/all/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/all/5.webp"
+                    }
+                ]
+            },
+            {
+                "type": "creators",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/12.webp"
+                    },
+                    {
+                        "name": "13",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/13.webp"
+                    },
+                    {
+                        "name": "14",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/14.webp"
+                    },
+                    {
+                        "name": "15",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/15.webp"
+                    },
+                    {
+                        "name": "16",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/16.webp"
+                    },
+                    {
+                        "name": "17",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/17.webp"
+                    },
+                    {
+                        "name": "18",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/18.webp"
+                    },
+                    {
+                        "name": "19",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/19.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/2.webp"
+                    },
+                    {
+                        "name": "20",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/20.webp"
+                    },
+                    {
+                        "name": "21",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/21.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/creators/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "events",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/events/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/events/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/events/3.webp"
+                    }
+                ]
+            },
+            {
+                "type": "holidays",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/1.webp"
+                    },
+                    {
+                        "name": "10",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/10.webp"
+                    },
+                    {
+                        "name": "11",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/11.webp"
+                    },
+                    {
+                        "name": "12",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/12.webp"
+                    },
+                    {
+                        "name": "13",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/13.webp"
+                    },
+                    {
+                        "name": "14",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/14.webp"
+                    },
+                    {
+                        "name": "15",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/15.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/7.webp"
+                    },
+                    {
+                        "name": "8",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/8.webp"
+                    },
+                    {
+                        "name": "9",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/holidays/9.webp"
+                    }
+                ]
+            },
+            {
+                "type": "limited",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/limited/1.webp"
+                    }
+                ]
+            },
+            {
+                "type": "seasons",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/seasons/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/seasons/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/seasons/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/seasons/4.webp"
+                    }
+                ]
+            },
+            {
+                "type": "shop",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/shop/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/shop/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/shop/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/shop/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/shop/5.webp"
+                    },
+                    {
+                        "name": "6",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/shop/6.webp"
+                    },
+                    {
+                        "name": "7",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/banners/shop/7.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "frames": {
+        "items": [
+            {
+                "type": "classic",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/classic/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/classic/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/classic/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/classic/4.webp"
+                    }
+                ]
+            },
+            {
+                "type": "minecraft",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/minecraft/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/minecraft/2.webp"
+                    }
+                ]
+            },
+            {
+                "type": "neon",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/neon/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/neon/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/neon/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/neon/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/neon/5.webp"
+                    }
+                ]
+            },
+            {
+                "type": "pastel",
+                "part": [
+                    {
+                        "name": "1",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/pastel/1.webp"
+                    },
+                    {
+                        "name": "2",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/pastel/2.webp"
+                    },
+                    {
+                        "name": "3",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/pastel/3.webp"
+                    },
+                    {
+                        "name": "4",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/pastel/4.webp"
+                    },
+                    {
+                        "name": "5",
+                        "url": "https://raw.githubusercontent.com/Obsidian-Empire/passutil_assets/compressed/frames/pastel/5.webp"
+                    }
+                ]
+            }
+        ]
+    }
+}
